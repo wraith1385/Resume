@@ -41,9 +41,13 @@
 		li {
 			margin-bottom: 5px;
 		}
-		
+		a {
+			color: #222;
+		}
 		/* ________________________________________________________ */
-		
+		.rtl {
+			direction: rtl;
+		}
 		.clear {
 			clear: both;
 		}
@@ -139,6 +143,32 @@
 				font-style: italic;
 			}
 
+		/* ___ photo ___ */
+		#photo {
+			width: 160px;
+			height: 200px;
+			overflow: hidden;
+			float: left;
+			margin-top: 8px;
+			border-radius: 4px;
+		}
+		#photo img {
+			width: 100%;
+			height: auto;
+		}
+		.header.photo {
+			margin-left: 190px;
+		}
+		.header.photo #title {
+			text-align: left;
+		}
+		.header.photo .basic-info {
+			float: none;
+			padding: 0;
+			width: auto;
+			text-align: left;
+		}
+
 		@media screen and (max-width: 950px) {
 			body {
 				background: #fff;
@@ -151,27 +181,39 @@
 		}
 	</style>
 </head>
-<body>
+<body class="lang-en ">
 
 <div id="main">
+	
 	<h1 id="title">Seth Staggs</h1>
 	<div class="basic-info section">
 		<div class="set">
-			<p class="email">
-									E-mail: seth.a.staggs@gmail.com <span class="dot">&sect;</span>
-				
-				
-									Phone: (765) 491-9526							</p>
-
+							<p class="email">
+											E-mail: seth.a.staggs@gmail.com <span class="dot">&sect;</span>
+					
+											Website: sethstaggs.me <span class="dot">&sect;</span>
+					
+											Phone: (765) 491-9526									</p>
+			
 							<p class="address">
-					8385 Cascade View Dr, Columbus, OH 43240				</p>
+										8727 Arrowtip Ln, Lewis Center, OH 43035				</p>
 			
 			<div class="clear"> </div>
 		</div><!-- set //-->
 		<div class="clear"> </div>
 	</div><!-- basic-info //-->
+
 	
 		
+			<div class="section section-1454633346959">
+			<h2 class="title">Objective</h2>
+			<div class="set">
+						<div class="item">
+							<span class="info">To obtain an IT role in a large scale enterprise environment that both furthers my technical knowledge and allows me to explore and expand my leadership skills.</span>
+						</div>
+					</div>
+			<div class="clear"> </div>
+		</div>
 			<div class="section section-work">
 			<h2 class="title">Work experience</h2>
 			<div class="set">
@@ -180,7 +222,7 @@
 						<span class="date r">July 2011 &mdash; Present</span>
 							</h3>
 							<span class="clear"> </span>
-							<span class="job_title">Technology Program Analyst</span><span class="info">Responsible for rolling out and automating metrics for an area with approximately 400 employees.  Helped streamline the process for creating the weekend schedule for critical infrastructure maintenance while creating the schedule weekly for over a year.  Assisted with coordinating the transformation of the IOC to a true Level 1 &amp; 2 support entity.  Other assorted project work.</span><span class="clear"> </span>
+							<span class="job_title">Infrastructure Operations Center Support Team</span><span class="info">Responsible for rolling out and automating metrics for an area with approximately 400 employees.  Assisted with coordinating the transformation of the IOC to a true Level 1 &amp; 2 support entity.  Assumed a leadership role for the global Transmission Control area and also for the IOC Columbus location assisting with normal BAU work as well as being a focal point for special projects.  Coordinated a telecom replacement project for the global IOC.</span><span class="clear"> </span>
 							</div>
 						
 							<div class="item">
@@ -196,7 +238,7 @@
 						<span class="date r">February 2006 &mdash; June 2010</span>
 							</h3>
 							<span class="clear"> </span>
-							<span class="job_title">Student Data Analyst</span><span class="info">Responsible for maintaining and updating the EWOTS database along with analyzing, maintaining, and updating other various databases.  Also responsible updating and maintaing excel sheets for the annual budget.  </span><span class="clear"> </span>
+							<span class="job_title">Student Data Analyst</span><span class="info">Responsible for maintaining and updating the EWOTS database along with analyzing, maintaining, and updating other various databases.  Assisted with data entry and validation for an enterprise level switch to an SAP based system.  Also responsible updating and maintaining excel sheet metrics for the annual budget for a 1000 person organization.  </span><span class="clear"> </span>
 							</div>
 						
 							<div class="item">
@@ -204,7 +246,7 @@
 						<span class="date r">December 2000 &mdash; August 2010</span>
 							</h3>
 							<span class="clear"> </span>
-							<span class="job_title">Systems Monitor</span><span class="info">Responsible for fixing and maintaining all electronic equipment and databases on a store level.  Also responsible for random price audits.  </span><span class="clear"> </span>
+							<span class="job_title">Systems Monitor</span><span class="info">Responsible for fixing and maintaining all electronic equipment and databases on a store level.  Daily advanced troubleshooting and effective communication with non-technical employees.  Also responsible for random price audits.  </span><span class="clear"> </span>
 							</div>
 						</div>
 			<div class="clear"> </div>
@@ -217,7 +259,7 @@
 						<span class="date r">2004 &mdash; 2011</span>
 							</h3>
 							<span class="clear"> </span>
-							<span class="school">Purdue University</span><span class="info"><br /></span><span class="clear"> </span>
+							<span class="school">Purdue University</span><span class="info">Specialization in Enterprise Level Networking and Security</span><span class="clear"> </span>
 						</div>
 						</div>
 			<div class="clear"> </div>
@@ -226,17 +268,7 @@
 			<h2 class="title">IT Skills</h2>
 			<div class="set">
 						<div class="item">
-							<span class="info">Experience with troubleshooting and systems administration for Windows XP, Server 2003, Vista, 7, and Server 2008.  Also experience with systems administration for Unix and Linux. <br /><br />Network design experience using multiple brands of enterprise level routers and switches.  Advanced experience using Cisco IOS with enterprise level routing protocols and other advanced concepts (EIGRP, OSPF, BGP, MPLS).<br /><br />
-Extensive experience collecting different types of data and using Excel to create different types of metrics.  <br /></span>
-						</div>
-					</div>
-			<div class="clear"> </div>
-		</div>
-			<div class="section section-1367598716882">
-			<h2 class="title">Programming Languages</h2>
-			<div class="set">
-						<div class="item">
-							<span class="info">Visual Basic, C++, HTML, Java, C#, ASP.Net, SQL</span>
+							<span class="info"><ul><li>Troubleshooting and systems administration for Windows XP, Server 2003, Vista, 7, and Server 2008.  Also experience with systems administration for Unix and Linux. </li><li>Network design using multiple brands of enterprise level routers and switches.  Advanced experience using Cisco IOS with enterprise level routing protocols and other advanced concepts (EIGRP, OSPF, BGP, MPLS).</li><li>Collecting different types of data and using Excel to create different types of metrics.  </li><li>File Transmission Protocols (SFTP, SSH, NDM, AS2).</li><li>Up to date with current IT Security Trends - Attended 2015 RSA Conference.<br /></li><li>Knowledge of IT Operations and how to effectively interface with an operations team.</li></ul></span>
 						</div>
 					</div>
 			<div class="clear"> </div>
